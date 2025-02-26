@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BossRoom.cs" />
+    <Compile Include="DungeonRoom.cs" />
+    <Compile Include="HealthPotion.cs" />
+    <Compile Include="InventoryItem.cs" />
+    <Compile Include="MonsterFigthRoom.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TraderRoom.cs" />
+    <Compile Include="TrapRoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
